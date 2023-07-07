@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: orange;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  section {
+    padding: 50px;
+    height: 100vh;
+  }
+  
+  #home {
+    background-image: url("home-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(213, 182, 70);
+    text-align: center;
+  }
+  
+  .banner {
+    margin-top: 200px;
+  }
+  
+  #about {
+    display: flex;
+  }
+  
+  .about-left {
+    flex: 1;
+    
+  }
+  
+  .about-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .slideshow img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  #contact {
+    background-color: blue;
+    color: white;
+    text-align: center;
+  }
+  
+  .contact-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-links ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact-form {
+    margin-top: 50px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ff8800;
+  }
+  
